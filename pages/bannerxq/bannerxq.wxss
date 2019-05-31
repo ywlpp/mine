@@ -1,0 +1,48 @@
+/* pages/bannerxq/bannerxq.wxss */
+.header{
+  width: 100%;
+  height: 11rem;
+}
+.header image{
+  width: 100%;
+  height: 11rem;
+}
+.xqtext{
+  width: 100%;
+  height: 4.5em;
+}
+.textxiao{
+  width: 80%;
+  height: 4.5rem;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+.textxiao .texta{
+  display: block;
+  float: left;
+  font-size: .7rem;
+  width: 100%;
+  text-align: center;
+  margin-top: .35rem;
+  margin-bottom: .15rem;
+}
+.xiaoxiao{
+  text-align: center;
+  display: block;
+  font-size: .7rem;
+}
+.list{
+  width: 100%;
+  margin-bottom: 25px;
+}
+.itemlist{
+  width: 80%;
+  margin: 0 auto;
+}
+.itemlist image{
+  width: 100%;
+}
+.itemlist .title{
+  font-size: .9rem;
+  margin-top: 5px;
+}

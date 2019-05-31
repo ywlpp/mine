@@ -1,0 +1,45 @@
+<view>
+<view class='backgroundimg'>
+  <swiper class="swiper-block" previous-margin="90rpx" next-margin="90rpx" current="0" bindchange="swiperChange">
+<block wx:for="{{bannerimg}}" wx:index="{{index}}" wx:key="{{item.index}}">
+<swiper-item class="swiper-item">
+<image mode="aspectFill" src="{{item}}" class="slide-image {{swiperIndex == index ? 'active' : ''}}"/>
+</swiper-item>
+</block>
+</swiper>
+</view>
+<view class='text'>
+  <h1 class='h1'>30 years wood expert</h1>
+  <text class='text1'>三十年制木专家</text>
+  <text class='text2'>秉承时间成就经典的品牌核心内涵，把木门艺术和文化底蕴完美融合到家居生活中，成就豪迈三十年制木专家</text>
+  <text></text>
+</view>
+<view class='th'>
+  <image class='thimg' src="http://m.haomaimen.com/statics/images/hm/home-s2-bg.jpg"></image>
+  <image class='thimg1' src='http://m.haomaimen.com/statics/images/hm/home-s2-1.png'></image>
+  <view class='thtext'>传承木作艺术精髓，创新木作工艺理念</view>
+  <view class='thview'>
+  了解更多
+  </view>
+</view>
+<view class='list' wx:for="{{menlistdata}}" wx:key="item.index">
+  <view class='po'>
+    <image src='{{item.url}}'></image>
+    <view class='poblack'>
+   
+    </view>
+     <view class='poblack1'>{{item.msg}}</view>
+    <view class='poblack2'>立即探索</view>
+  </view>
+</view>
+<view class='btn' >
+  我要加盟
+</view>
+<view class='wxcall'>
+  全国服务热线:<text bindtap='btn'>400 6070 399</text>
+  <view>© 2018 HONMAX.LTD All Rights Reserved</view>
+  <view>渝ICP备13003339号</view>
+  <image class='lastimg'
+src='http://m.haomaimen.com/statics/images/hm/logo_icon.png'></image>
+</view>
+</view>

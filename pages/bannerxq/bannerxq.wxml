@@ -1,0 +1,30 @@
+<!--pages/bannerxq/bannerxq.wxml-->
+<view class='bannerxq'>
+  <view class='header'>
+      <image src='http://m.haomaimen.com/statics/images/hm/door-banner.jpg'></image>
+  </view>
+<view class='xqtext'>
+  <view class='textxiao'>
+          <text class='texta'>
+            让我们来了解一下，能帮您提高家庭品质的
+          </text>
+          <text class='xiaoxiao'>HONMAX豪迈木门产品</text> 
+  </view>
+</view>
+<view class='list' wx:for="{{xqlist}}" wx:key='item.index'>
+<view class='itemlist'>
+<image src='{{item.url}}'></image>
+<!-- <image src='http://m.haomaimen.com/uploadfile/2018/0707/20180707052948985.jpg'></image> -->
+<view class='title'>{{item.title}}</view>
+</view>
+</view>
+<!-- <view class='list'>
+<view class='item'>
+<image src="http://m.haomaimen.com/uploadfile/2018/0707/20180707053011417.jpg"></image>
+<view class='title'>复合烤漆1</view>
+</view>
+</view> -->
+
+
+
+</view>
